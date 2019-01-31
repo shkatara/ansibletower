@@ -4,4 +4,4 @@
   command: hostnamectl
   register: a
 
-- debug: var=a.stdout_lines
+- debug: var=a.stdout
