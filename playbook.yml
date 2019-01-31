@@ -4,5 +4,10 @@
   hosts: all
   roles:
     - roles/hello
+    
+  tasks:
+    - name: debug
+      debug: 
+        msg: "This has been printed"
 
 ...
