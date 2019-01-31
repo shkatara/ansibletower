@@ -1,0 +1,8 @@
+---
+
+- name: imported from github
+  hosts: all
+  roles:
+    - roles/hello
+
+...
