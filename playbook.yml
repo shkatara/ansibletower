@@ -6,6 +6,8 @@
     - roles/hello
     
   tasks:
+    - name: making the directory
+      command: mkdir /root/ansible
     - name: debug
       debug: 
         msg: "This has been updated and modified Update on run type"
