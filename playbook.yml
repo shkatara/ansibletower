@@ -10,6 +10,6 @@
       command: mkdir /root/ansible
     - name: debug
       debug: 
-        msg: "This has been updated."
+        msg: "This has been updated and modified as well"
 ...
 
