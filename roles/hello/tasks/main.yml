@@ -5,3 +5,5 @@
   register: a
 
 - debug: var=a.stdout
+
+- debug: msg=Hiiiiiiii
