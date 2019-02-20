@@ -10,7 +10,7 @@
       command: mkdir /root/ansible
     - name: debug
       debug: 
-        msg: "This has been updated and modified as well also.. charlie rockssss"
+        msg: "THis is ansible "
 
 ...
 
